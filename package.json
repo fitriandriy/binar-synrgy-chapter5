@@ -1,0 +1,18 @@
+{
+  "name": "day-24-typescript-dan-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon run index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.19.2"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
