@@ -48,10 +48,19 @@ const deleteData = (req, res) => {
   });
 }
 
+const uploadImagePeople = (req, res) => {
+  const url = `/uploads/${req.file.filename}`
+  res.status(200).json({
+    message: 'Uploaded!',
+    url
+  })
+}
+
 module.exports = {
   getPeople,
   getPeopleById,
   createData,
   updateData,
-  deleteData
+  deleteData,
+  uploadImagePeople
 };
